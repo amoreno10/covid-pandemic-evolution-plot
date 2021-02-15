@@ -8,6 +8,7 @@ import plotly.express as px
 # Import dataset and first exploratory analysis
 path = './data/covid_19_data.csv'
 raw_data = pd.read_csv(path)
+print(raw_data)
 
 # Check if the dataset has null values, and the types of the columns
 print(raw_data.info())
